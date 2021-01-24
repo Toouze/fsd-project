@@ -1,0 +1,88 @@
+.header-auth {
+    width: 1440px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+
+    > * {
+        position: relative;
+    }
+    > .toxin-logo {
+        height: 35px;
+        width: 35px;
+        border: #B79DFF 2.7px solid;
+        border-radius: 50px;
+        top:15px;
+        left:140px;
+        > .circle1 {
+            width:20px; 
+            height: 34px;
+            border: #AA9FFD 2.7px solid;
+            border-radius: 50%;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            transform: rotate(45deg);
+            top:10px;
+            left:-11px;
+        }
+        > .circle2 {
+            width:9px;
+            height:8px;
+            border:#6BCFB3 2.7px solid;
+            border-radius: 50%;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            left:18px;
+            top:-27px;
+            transform: rotate(-24deg);
+        }
+        > .toxin-img {
+            position: relative;
+            top: -42px;
+            left: 49px;
+        }
+    }
+
+    > .info {
+        left: 712px;
+        top: -14px;
+        > * {
+            float: left;
+            font-size: 14px;
+            margin-right: 21px;
+            position: relative;
+        } > .b {
+            color:#575871;
+        } > .rglr {
+            color: #8F8FA0;
+        } > .material-icons {
+            transform: scale(1.8);
+            color: #8F8FA0;
+            top:3px;
+        } > .serv-arrow__down {
+            margin-right:26px;
+        } > .line {
+            height: 30px;
+            width: 1px;
+            background-color: #E8E8EC;
+            position: relative;
+            left: 4px;
+            top: -4px;
+            margin-right: 25px;
+        }
+
+
+        > .services {
+            margin-right: 5px;
+        } > .news {
+            margin-right: 20px;
+        } > .agreements {
+            margin-right: 5px;
+        }
+    }
+
+}

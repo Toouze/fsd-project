@@ -1,0 +1,67 @@
+* {
+    position: relative;
+}
+.big-footer {
+    width: 768px;
+    height: 367px;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    left: 336px;
+    top: 400px;
+    > .toxin-logo {
+        height: 35px;
+        width: 35px;
+        border: #B79DFF 2.7px solid;
+        border-radius: 50px;
+        top:121px;
+        left:332px;
+        > .circle1 {
+            width:20px; 
+            height: 34px;
+            border: #AA9FFD 2.7px solid;
+            border-radius: 50%;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            transform: rotate(45deg);
+            top:10px;
+            left:-11px;
+        }
+        > .circle2 {
+            width:9px;
+            height:8px;
+            border:#6BCFB3 2.7px solid;
+            border-radius: 50%;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            left:18px;
+            top:-27px;
+            transform: rotate(-24deg);
+        }
+        > .toxin-img {
+            position: relative;
+            top: -42px;
+            left: 49px;
+        }
+    } 
+    > .copyright {
+        color: #575871;
+        top: 142px;
+        left: 201px;
+    }
+    > .imgs {
+        top: 164px;
+        left: 328px;
+        > * {
+            margin-right: 21px;
+        }
+        > .facebook {
+            top: 3px;
+            margin-right: 22px;
+        }
+        > .instagram {
+            top: 3px;
+        }
+    }
+}

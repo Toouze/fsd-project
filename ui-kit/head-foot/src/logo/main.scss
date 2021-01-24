@@ -1,0 +1,37 @@
+.logo {
+    height: 42px;
+    width: 42px;
+    border: 3px solid rgba(31, 32, 65, 0.25);
+    border-radius: 50px;
+    position: absolute;
+    top:30px;
+    left:30px;
+}
+
+.circle1 {
+    width:24px; 
+    height: 38px;
+    border: #C7C7CF 2.7px solid;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(45deg);
+    position: relative;
+    top:12px;
+    left:-11px;
+}
+
+.circle2 {
+    width:10px;
+    height:8px;
+    border: #C7C7CF 2.7px solid;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: relative;
+    left:23px;
+    top:-28px;
+    transform: rotate(-24deg);
+}

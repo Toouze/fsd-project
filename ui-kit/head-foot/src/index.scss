@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'Montserrat-regular';
+    src: url('../fonts/Montserrat-Regular.svg') format('svg');
+
+    src: url('../fonts/Montserrat-Regular.woff') format('woff');
+    
+    src: url('../fonts/Montserrat-Regular.ttf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Montserrat-bold';
+
+    src: url('../fonts/Montserrat-Bold.svg') format('svg');
+
+    src: url('../fonts/Montserrat-Bold.woff') format('woff');
+    
+    src: url('../fonts/Montserrat-Bold.ttf') format('opentype');
+}
+
+
+
+
+
+body {
+    background-color: #F1F1F3;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.b {
+    font-family: 'Montserrat-bold';
+}
+
+.rglr {
+    font-family: 'Montserrat-regular';
+}

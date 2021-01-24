@@ -1,0 +1,6 @@
+import './logo/main.scss'
+import './index.scss'
+import './header/main.scss'
+import './header-auth/main.scss'
+import './body/main.scss'
+import './big-footer/main.scss'
