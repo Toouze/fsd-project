@@ -1,2 +1,2 @@
-# fsd-project
+# fsd ( MetaLamp ) -project
 Верстка макета ( 2 задание )
