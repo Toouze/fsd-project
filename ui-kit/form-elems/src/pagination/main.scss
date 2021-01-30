@@ -1,0 +1,62 @@
+.pagination {
+
+    top: -2353px;
+    left: 980px;
+
+    > .pag-title {
+        top: -16px;
+    }
+    > .pages {
+        top: -38px;
+        left: 56px;
+
+
+        > * {
+            float: left;
+            margin-right: 34px;
+            margin-top: 5px;
+        }
+
+        > .page15 {
+            float: none;
+            left: -5px;
+            top: 5px;
+        }
+        
+        > .page-dots {
+            left: -1px;
+            top: -1px;
+        }
+
+        }
+    }
+
+    .page1 {
+        background:  linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        > span {
+            top: 13px;
+            left: 17px;
+        }
+    }
+
+    .page-next {
+        border-radius: 50%;
+        top: -60px;
+        left: 200px;
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+        > * {
+            color: white;
+            left: 8px;
+            top: 3px;
+        }
+    }
+
+    .page-note {
+        top: -50px;
+        left: 5px;
+    }

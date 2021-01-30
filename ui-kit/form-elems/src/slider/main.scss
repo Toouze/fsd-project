@@ -1,0 +1,61 @@
+.slider {
+    top: -2701px;
+    left: 979px;
+    
+    > .slider-title {
+        float: left;
+    } > .slider-money {
+        left: 70px;
+    }
+
+    > .left-part {
+        width: 80px;
+        height: 4px;
+        border-radius: 3px;
+        border: 1px solid #C7C7CF;
+        top: 23px;
+        z-index: 0;
+    }
+
+
+
+    > .left-circ {
+        top: 12px;
+        left: 75px;
+    }
+
+    > .center-slider {
+        width: 90px;
+        height: 6px;
+        border-radius: 3px;
+        background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+        z-index: 0;
+        left: 80px;
+        top: 1px;
+    }
+
+    > .right-part {
+        width: 100px;
+        height: 4px;
+        border-radius: 3px;
+        border: 1px solid #C7C7CF;
+        z-index: 0;
+        left: 164px;
+        top: -21px;
+    }
+
+    > .right-circ {
+        left: 160px;
+        top: -10px;
+    }
+}
+
+
+.greencirc {
+    width: 12px;
+    height: 12px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    z-index: 1;
+}

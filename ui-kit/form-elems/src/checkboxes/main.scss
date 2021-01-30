@@ -1,0 +1,73 @@
+.undropped {
+    top: -692px;
+    left: 141px;
+    > .text {
+        float: left;
+        margin-right: 41px;
+    } > .ardwn {
+        top: -4px;
+    }
+}
+
+
+.big {
+    top: -655px;
+    left: 140px;
+    width: 266px;
+    height: 217.44px;
+    > .text {
+        float: left;
+        margin-right: 41px;
+    } > .ardwn {
+        top: -4px;
+    }
+}
+
+.small {
+    top: -1978px;
+    left: 587px;
+    width: 222px;
+    height: 129.12px;
+    
+    > .text {
+        top: -13px;
+    }
+}
+
+
+.rich {
+    width: 266px;
+    height: 145px;
+    top: -1036px;
+    left: 567px;
+
+    > .text {
+        top: -30px;
+        left: 0px;
+    }
+
+    > .rich-checkboxes {
+        top: -15px;
+        float: left;
+        display: grid;
+        grid-template-rows: repeat(2, 62px);
+    }
+
+    > .rich-texts {
+        top: -14px;
+        left: 10px;
+        display: grid;
+        grid-template-rows: repeat(2, 62px);
+
+        > .hall {
+
+            > .input-text {
+                top: 5px;
+            }
+        }
+    }
+}
+
+.input-helper-text {
+    top: 5px;
+}

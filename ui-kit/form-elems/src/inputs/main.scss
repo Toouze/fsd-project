@@ -1,0 +1,408 @@
+.texts {
+    top: 143px;
+    > * {
+        left:141px;
+    }
+
+    > .subtitle {
+        margin-bottom: 5px;
+    }
+
+    > .email {
+        margin-bottom: 21px;
+    } > .hover-focus {
+        margin-bottom: 106px;
+    } > .dmy {
+        margin-bottom: 250px;
+    }
+
+    > .email__right-note {
+        position: absolute;
+        color: #8F8FA0;
+        font-size: 12px;
+        font-family: 'Montserrat-regular';
+        top: -3px;
+        left: 405px;
+    } > .hover__right-note {
+        position: absolute;
+        color: #8F8FA0;
+        font-size: 12px;
+        font-family: 'Montserrat-regular';
+        top: 85px;
+        left: 365px;
+    }
+}
+
+
+
+.undropdowns {
+    > * {
+        left:141px;
+    }
+    top:-321px;
+
+    > .subtitle {
+        margin-bottom: 5px;
+    }
+
+    > .guests {
+        margin-bottom: 127px;
+        > a {
+            float: right;
+            top: -21px;
+            left: -9px;
+        }
+    }
+    > .dmy {
+        float: left; 
+    }
+    > .datenum {
+        left: 311px;
+        top:-19px;
+        > a {
+            position: absolute;
+            top:10px;
+            left: 115px;
+        }
+    }
+    > .datesub {
+        top: -19px;
+        left: 161px;
+    }
+    > .filter-sub {
+        top:21px;
+    }
+    > .filter-date {
+        top: 20px;
+        margin-bottom: 225px;
+
+        > a {
+            top: -20px;
+            left: -10px;
+        }
+    }
+
+    > .bed-sub {
+        top:2px;
+        left: 140px;
+    }
+
+
+    > .bedrooms__right-note {
+        position: absolute;
+        color: #8F8FA0;
+        font-size: 12px;
+        font-family: 'Montserrat-regular';
+        top: 565px;
+        left: 350px;
+    }
+
+    > .bedrooms {
+        > a {
+            color: #575871;
+        }
+    }
+
+    > .datenum {
+        > .text {
+            margin-left: 14px;
+            top: -12px;
+        }
+    }
+}
+
+
+
+
+
+
+.dropdowns {
+    > .bed-sub {
+        top: -300px;
+        left: 140px;
+    }
+    > .bedrooms__right-note {
+        color: #8F8FA0;
+        font-size: 12px;
+        font-family: 'Montserrat-regular';
+        top: -314px;
+        left: 336px;
+    }
+    > .bedrooms {
+        top: -310px;
+        left: 141px;
+        > a {
+            color: #575871;
+        }
+    }
+    > .bed-dropped {
+        width: 263px;
+        height: 118px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        top: -311px;
+        left: 141px;
+        transform: rotate(180deg);
+        > * {
+            transform: rotate(180deg);
+        }
+        > .bedrooms {
+            > .less {
+                top: -54px;
+                left: 165px;
+            } > .more {
+                top: -83px;
+                left: 227px;
+            }
+            > .text {
+                top: -33px;
+                left: 14px;
+            }
+            > .number {
+                top: -77px;
+                left: -49px;
+                float: right;
+            }
+        } > .beds {
+            > .less {
+                top: 56px;
+                left: 165px;
+            } > .more {
+                top: 28px;
+                left: 227px;
+            }
+            > .text {
+                top: 78px;
+                left: 13px;
+            }
+            > .number {
+                top: 33px;
+                left: -48px;
+                float: right;
+            }
+        } > .baths {
+            > .less {
+                top: 167px;
+                left: 165px;
+            } > .more {
+                top: 137px;
+                left: 227px;
+            }
+            > .text {
+                top: 188px;
+                left: 13px;
+            }
+            > .number {
+                top: 187px;
+                left: 207px;
+            }
+            .number {
+                position: absolute;
+            }
+        }
+    }
+
+    > .empty-guests {
+        top: -573px;
+        left: 587px;
+
+        > .subtitle {
+            top: -4px;
+        }
+
+        > .guests {
+            height: 42px;
+            width: 317.8px;
+            border-bottom: hidden;
+            border-radius: none;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+
+            > a {
+                color: #575871;
+            }
+
+        }
+
+        > .dropped {
+            top: 0px;
+            width: 317.8px;
+            height: 157px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            transform: rotate(180deg);
+            > * {
+                transform: rotate(180deg);
+                display: grid;
+            }
+
+            > .apply {
+                font-size: 12px;
+                font-family: 'Montserrat-bold';
+                color: #BC9CFF;
+                top: -402px;
+                left: -228px;
+
+            }
+
+            > .people {
+                top: 37px;
+                left: 10px;
+                grid-template-rows: repeat(3, 36px);
+                > .children {
+                    margin-top: 1px;
+                }
+                > .babies {
+                    margin-top: 2px;
+                }
+            }
+            > .less-btns {
+                top: -59px;
+                left: -220px;
+                grid-template-rows: repeat(3, 34px);
+                > * {
+                    border: 1px solid #EAEAED;
+                }
+                > .less-child {
+                    margin-top: 2px;
+                }
+                > .less-baby {
+                    margin-top: 5px;
+                }
+             
+            }
+
+            > .more-btns {
+                left: -282px;
+                top: -161px;
+                grid-template-rows: repeat(3, 34px);
+                > .more-child {
+                    margin-top: 3px;
+                }
+                > .more-baby {
+                    margin-top: 7px;
+                }
+            }
+        
+            > .amounts {
+                left: -262.5px;
+                top: -269px;
+                grid-template-rows: repeat(3, 34px);
+                > .child-amount {
+                    margin-top: 3px;
+                }
+                > .baby-amount {
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+
+
+
+    > .three-guests {
+        top: -790px;
+        left: 979px;
+
+        > .subtitle {
+            top: -4px;
+        }
+
+        > .guests {
+            height: 42px;
+            width: 317.8px;
+            border-bottom: hidden;
+            border-radius: none;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+
+            > a {
+                color: #575871;
+            }
+
+        }
+
+        > .dropped {
+            top: 0px;
+            width: 317.8px;
+            height: 157px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            transform: rotate(180deg);
+            > * {
+                transform: rotate(180deg);
+                display: grid;
+            }
+
+            > .apply {
+                font-size: 12px;
+                font-family: 'Montserrat-bold';
+                color: #BC9CFF;
+                top: -402px;
+                left: -228px;
+            }
+
+            > .clear {
+                font-size: 12px;
+                font-family: 'Montserrat-bold';
+                color: #BC9CFF;
+                top: -417px;
+                left: -13px;
+            }
+
+            > .people {
+                top: 37px;
+                left: 10px;
+                grid-template-rows: repeat(3, 36px);
+                > .children {
+                    margin-top: 1px;
+                }
+                > .babies {
+                    margin-top: 2px;
+                }
+            }
+            > .less-btns {
+                top: -59px;
+                left: -220px;
+                grid-template-rows: repeat(3, 34px);
+
+                > .less-child {
+                    margin-top: 2px;
+                }
+                > .less-baby {
+                    margin-top: 5px;
+                }
+             
+            }
+
+            > .more-btns {
+                left: -282px;
+                top: -161px;
+                grid-template-rows: repeat(3, 34px);
+                > .more-child {
+                    margin-top: 3px;
+                }
+                > .more-baby {
+                    margin-top: 7px;
+                }
+            }
+        
+            > .amounts {
+                left: -262.5px;
+                top: -269px;
+                grid-template-rows: repeat(3, 34px);
+                > .child-amount {
+                    margin-top: 3px;
+                    left: 2px;
+                }
+                > .baby-amount {
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+    
+
+}
+
+
