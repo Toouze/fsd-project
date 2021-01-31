@@ -1,0 +1,480 @@
+.body {
+    width: 1439px;
+    height:900px;
+    background-image: url('/imgs/room.png');
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+
+// search-numb //
+.dropbox {
+    width:380px;
+    height:374px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: white;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    z-index: 1;
+}
+
+
+
+.arrow__date {
+    top:8px;
+    left:27px;
+    color:rgba(31, 32, 65, 0.5);
+    cursor: pointer;
+}
+
+
+.arrow__guests {
+    top:-20px;
+    left:271px;
+    color:rgba(31, 32, 65, 0.5);
+}
+
+.arrow__choose {
+    top:7px;
+    left:61px;
+}
+
+.dropbox__title {
+    display: block;
+    width:320px;
+    height: 59px;
+    font-size: 24px;
+    font-family: 'Montserrat-bold';
+    left: 29px;
+    top:39px;
+}
+
+.note {
+    display:block;
+    font-family: 'Montserrat-bold';
+    font-size: 12px;
+}
+
+.dropbox__1date {
+    left: 29px;
+    top:60px;
+}
+
+
+.dropbox__2date {
+    left: 199px;
+    top:1px;
+}
+
+
+.drpbx__date {
+    width: 150px;
+    height:44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.drpbx__long {
+    width: 320px;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+}
+
+
+.arriveDate {
+    left:29px;
+    top:66px;
+    > .arrive__date {
+        > .material-icons {
+            left: 29px;
+
+        }
+    }
+}
+
+.exitDate {
+    left:199px;
+    top:7px;
+    z-index: 2;
+}
+
+.guests {
+    top:47px;
+    left:29px;
+}
+
+
+.act-btn {
+    width: 320px;
+    height: 44px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+
+}
+
+.btn__note {
+    display: block;
+    font-family: 'Montserrat-bold';
+    font-size:12px;
+    line-height: 15px;
+    color:white;
+}
+
+
+.chooseNumber {
+    left:29px;
+    top:78px;
+
+    > .btn__note {
+        top:3px;
+        left:91px;
+    }
+}
+
+.dropbox__guest {
+    position: absolute;
+    width: 43px;
+    height: 15px;
+    font-family: 'Montserrat-bold';
+    font-size: 12px;
+    line-height: 15px;
+    color: #1F2041;
+    top:204px;
+    left: 29px;
+}
+
+
+.guests__amount {
+    display: block;
+    width: 112px;
+    height: 18px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+    top:12px;
+    left:14px;
+}
+
+
+.arrive__date {
+    width: 103px;
+    height: 24px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+    top:1px;
+    left: 14px;
+
+}
+
+.exit__date {
+    width: 103px;
+    height: 24px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+    top: 1px;
+    left: 14px; 
+
+}
+
+// search-numb //
+
+
+.body__remark {
+    top: 831px;
+    left: 1047px;
+    width: 297px;
+    height: 48px;
+    line-height: 24px;
+    color:#575871;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.calendar-box {
+    width: 318px;
+    height: 367px;
+    background-color: white;
+    border: 1px solid #C7C7CF;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    position: absolute;
+    top:330px;
+    left:170px;
+    z-index: 2;
+
+
+    > * {
+        position: relative;
+    }
+}
+
+
+.calendar__header {
+
+    > .left-arrow {
+        transform: scale(-1, 1);
+        color:#BC9CFF;
+        top:19px;
+        left:19px;
+    }
+
+    > .calendar__title {
+        font-family: 'Montserrat-bold';
+        font-size: 19px;
+        top:-8px;
+        left:100px;
+    }
+
+    > .right-arrow {
+        color:#BC9CFF;
+        top:-32px;
+        left:274px;
+    }
+}
+
+
+.calendar__body {
+    width: 305px;
+    height: auto;
+    box-sizing: border-box;
+    top:-13px;
+    left:11px;
+}
+
+
+.days {
+    font-family: 'Montserrat-bold';
+    font-size:12px;
+    color: #BC9CFF;
+}
+
+.numbers {
+    font-family: 'Montserrat-regular';
+    font-size:12px;
+    color:#8F8FA0;
+    margin-left:5px;
+}
+
+.gray {
+    color: #C7C7CF;
+}
+
+.calendar__body .body__days {
+    padding:20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-row-gap:25px;
+    grid-column-gap:15px;
+    box-sizing: border-box;
+}
+
+.numbers__19  {
+    color: white;
+    font-family: 'Montserrat-bold';
+    z-index:1;
+}
+.numbers__23 {
+    color: white;
+    font-family: 'Montserrat-bold';
+    z-index:1;
+}
+.numbers__8 {
+    color: white;
+    font-family: 'Montserrat-bold';
+    z-index:1;
+}
+
+.circ {
+    width:40px;
+    height:40px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:0;
+}
+
+.green-circle {
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    top:87px;
+    left:129px;
+}
+
+.purple-circle1 {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    top:168px;
+    left:11px;
+}
+
+.purple-circle2 {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    top:168px;
+    left:172px;
+}
+
+.purple-rectangle {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    opacity: 25%;
+    width:170px;
+    height:40px;
+    z-index:0;
+    position: absolute;
+    left:30px;
+    top:168px;
+}
+
+
+
+.calendar__footer {
+    color: #BC9CFF;
+    font-family: 'Montserrat-bold';
+    font-size:12px;
+}
+
+
+.footer__clear {
+    top: 0px;
+    left: 19px;
+}
+
+.footer__confirm {
+    top:-15px;
+    left:215px;
+}
+
+
+
+
+
+
+
+ .three-guests {
+    top: -535px;
+    left: 170px;
+    z-index: 4;
+
+
+    > .guests {
+        height: 42px;
+        width: 317.8px;
+        border-bottom: hidden;
+        border-radius: none;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        background-color: white;
+        top: 0px;
+        left: 0px;
+
+        > a {
+            color: #575871;
+        }
+
+    }
+
+    > .dropped {
+        top: 0px;
+        width: 317.8px;
+        height: 157px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        transform: rotate(180deg);
+        background-color: white;
+        > * {
+            transform: rotate(180deg);
+            display: grid;
+        }
+
+        > .apply {
+            font-size: 12px;
+            font-family: 'Montserrat-bold';
+            color: #BC9CFF;
+            top: -402px;
+            left: -228px;
+        }
+
+        > .clear {
+            font-size: 12px;
+            font-family: 'Montserrat-bold';
+            color: #BC9CFF;
+            top: -417px;
+            left: -13px;
+        }
+
+        > .people {
+            top: 37px;
+            left: 10px;
+            grid-template-rows: repeat(3, 36px);
+            > .children {
+                margin-top: 1px;
+            }
+            > .babies {
+                margin-top: 2px;
+            }
+        }
+        > .less-btns {
+            top: -59px;
+            left: -220px;
+            grid-template-rows: repeat(3, 34px);
+
+            > .less-child {
+                margin-top: 2px;
+            }
+            > .less-baby {
+                margin-top: 5px;
+            }
+         
+        }
+
+        > .more-btns {
+            left: -282px;
+            top: -161px;
+            grid-template-rows: repeat(3, 34px);
+            > .more-child {
+                margin-top: 3px;
+            }
+            > .more-baby {
+                margin-top: 7px;
+            }
+        }
+    
+        > .amounts {
+            left: -262.5px;
+            top: -269px;
+            grid-template-rows: repeat(3, 34px);
+            > .child-amount {
+                margin-top: 3px;
+                left: 2px;
+            }
+            > .baby-amount {
+                margin-top: 6px;
+            }
+        }
+    }
+}
