@@ -1,0 +1,266 @@
+.cards {
+    top: -461px;
+    left: 466px;
+    height: 1140px;
+    width: 934px;
+
+    display: grid;
+    grid-template-rows: repeat(4, 257px);
+    grid-template-columns: repeat(3, 269px);
+    grid-column-gap: 13px;
+    grid-row-gap: 20px;
+
+    > * {
+        box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    }
+
+     
+    > .card__item {
+    
+        > .card__item-img {
+            width: 270px;
+            height: 152px;
+            background-repeat: no-repeat;
+            z-index:2;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+
+            > .card__item-circls {
+                top: 129px;
+                left: 224px;
+                > .circls__active-circ {
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 50%;
+                    background-color: white;
+                    position: relative;
+                    float: left;
+                    left: -10px;
+                }
+                
+                > .circl2 {
+                    width: 5px;
+                    height: 5px;
+                    float: left;
+                    left: -6px;
+                }
+                
+                > .circl3 {
+                    width: 5px;
+                    height: 5px;
+                    float: left;
+                    left: -2px;
+                }
+                
+                > .circl4 {
+                    width: 5px;
+                    height: 5px;
+                    left: 24px;
+                }
+
+                > .card-circ {
+                    border-radius: 50%;
+                    border: 1px solid white;
+                    position: relative;
+                }
+            }
+        }
+
+        > .card__item-info {
+            top: 63px;
+            > .card__item-line {
+                width: 230px;
+                border-top: 1px solid #E8E8EC;
+                top:-98px;
+                left: 20px;
+            }
+        
+            > .card__item-stars {
+                > * {
+                    color: #9EA1FC;
+                    margin-right:-4px;
+                    top:-91px;
+                    left:20px;
+                }
+            }
+        
+            > .card__item-review {
+                top:-115px;
+                left:161px;
+                > * { 
+                    font-size: 14px;
+                    color: rgba(31, 32, 65, 0.5);
+                }
+                > .card__item-reviewnum {
+                    font-family:'Montserrat-bold';
+                    float: left;
+                    margin-right: 3px;
+                }
+                > .card__item-reviewnote {
+                    font-family: 'Montserrat-regular';
+                }
+            }
+
+            > .card__item-lux {
+                font-family: 'Montserrat-Bold';
+                position: relative;
+            
+                > .card__item-luxno {
+                    font-size:14px;
+                    top: -40px;
+                    left:20px;
+                    }
+                
+                > .card__item-luxnum {
+                    font-size:19px;
+                    top:-61px;
+                    left:41px;
+                    }
+                
+                > .card__item-luxtext {
+                    font-size:12px;
+                    top:-78px;
+                    left:87px;
+                    }
+            }
+
+            > .card__item-cost {
+                > * {
+                    color: rgba(31, 32, 65, 0.5);
+                }
+            
+                > .card__item-costnum {
+                    font-family: 'Montserrat-bold';
+                    font-size: 14px;
+                    top: -96px;
+                    left:153px;
+                }
+            
+                > .card__item-costperday {
+                    font-size:12px;
+                    font-family: 'Montserrat-regular';
+                    top: -112px;
+                    left:208px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.photo1__shadow {
+    width: 42px;
+    height: 151px;
+    position: absolute;
+    top: 82px;
+    left: 466px;
+    z-index: 5;
+    border-top-left-radius: 4px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 99.99%, rgba(255, 255, 255, 0) 100%);
+}
+
+.photo2__shadow {
+    width: 42px;
+    height: 151px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 99.99%, rgba(255, 255, 255, 0) 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    border-top-left-radius: 4px;
+    left: 694px;
+    top: 82px;
+    z-index: 5;
+}
+
+
+.arrow__right {
+    color: white;
+    position: absolute;
+    top: 145px;
+    left: 702px;
+    z-index: 6;
+}
+
+.arrow__left {
+    color: white;
+    position: absolute;
+    left: 476px;
+    top: 144px;
+    z-index:6;
+}
+
+
+
+
+
+
+
+
+.pagination {
+
+    top: -498px;
+    left: 756px;
+    > .pages {
+        top: -38px;
+        left: 56px;
+
+
+        > * {
+            float: left;
+            margin-right: 34px;
+            margin-top: 5px;
+        }
+
+        > .page15 {
+            float: none;
+            left: -5px;
+            top: 5px;
+        }
+        
+        > .page-dots {
+            left: -1px;
+            top: -1px;
+        }
+
+        }
+    }
+
+    .page1 {
+        background:  linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        > span {
+            top: 13px;
+            left: 17px;
+        }
+    }
+
+    .page-next {
+        border-radius: 50%;
+        top: -60px;
+        left: 200px;
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+        > * {
+            color: white;
+            left: 8px;
+            top: 3px;
+        }
+    }
+
+    .page-note {
+        top: -48px;
+        left: 5px;
+    }
+
+
+
+    .cards-title {
+        font-size: 24px;
+        font-family: 'Montserrat-bold';
+        top: -1652px;
+        left: 465px;
+    }

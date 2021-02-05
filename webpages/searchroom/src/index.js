@@ -1,0 +1,8 @@
+import './index.scss'
+import './header/main.scss'
+import './body/main.scss'
+import './body/left-body/main.scss'
+import './body/right-body/main.scss'
+import './script.js'
+import './footer/main.scss'
+import './body/dropdowns/main.scss'

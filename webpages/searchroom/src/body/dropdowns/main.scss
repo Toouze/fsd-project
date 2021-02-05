@@ -1,0 +1,109 @@
+.big-checkbox {
+    display:none;
+    position: absolute;
+    top: 740px;
+    left: 140px;
+    width: 266px;
+    height: 217.44px;
+    > .checkboxes {
+        top: -14px;
+    }
+    > .text {
+        float: left;
+        margin-right: 41px;
+    } > .check-ardwn {
+        top: -19px;
+        left: 232px;
+        cursor: pointer;
+    }
+}
+
+
+
+.bed-dropdown{
+    > .bed-sub {
+        top: -315px;
+        left: 140px;
+    }
+    position: absolute;
+    top: 959px;
+    display:none;
+    > .bedrooms {
+        top: -310px;
+        left: 141px;
+        > a {
+            color: #575871;
+            cursor: pointer;
+            position: absolute;
+            top:9px;
+            left: 230px;
+            z-index: 10;
+        }
+    }
+    > .bed-dropped {
+        width: 263px;
+        height: 118px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        top: -311px;
+        left: 141px;
+        transform: rotate(180deg);
+        > * {
+            transform: rotate(180deg);
+        }
+        > .bedrooms {
+            > .less {
+                top: -54px;
+                left: 165px;
+            } > .more {
+                top: -83px;
+                left: 227px;
+            }
+            > .text {
+                top: -33px;
+                left: 14px;
+            }
+            > .number {
+                top: -77px;
+                left: -49px;
+                float: right;
+            }
+        } > .beds {
+            > .less {
+                top: 56px;
+                left: 165px;
+            } > .more {
+                top: 28px;
+                left: 227px;
+            }
+            > .text {
+                top: 78px;
+                left: 13px;
+            }
+            > .number {
+                top: 33px;
+                left: -48px;
+                float: right;
+            }
+        } > .baths {
+            > .less {
+                top: 167px;
+                left: 165px;
+            } > .more {
+                top: 137px;
+                left: 227px;
+            }
+            > .text {
+                top: 188px;
+                left: 13px;
+            }
+            > .number {
+                top: 187px;
+                left: 207px;
+            }
+            .number {
+                position: absolute;
+            }
+        }
+    }
+}
