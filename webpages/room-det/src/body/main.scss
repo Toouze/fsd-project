@@ -1,0 +1,800 @@
+.details-body {
+    width: 1440px;
+    height: 937px;
+    background-color: white;
+    top: 70px;
+    
+    > .advantages {
+        top: 103px;
+        left: 152px;
+        width: 291px;
+        height: 275px;
+
+        > .adv-title {
+            font-size: 19px;
+            font-family: 'Montserrat-bold';
+            top: -32px;
+            left: -12px;
+        }
+    
+        > .comfort {
+            > .material-icons {
+                transform: scale(2);
+                color: #9EA1FC;
+            }
+    
+            > .comfort-title {
+                top: -36px;
+                left: 46px;
+            }
+            > .plus {
+                top: -30px;
+                left: 46px;
+            }
+    
+            > .line {
+                width:280px;
+                height: 1px;
+                background-color: #E8E8EC;
+                top: -8px;
+                left: -11px;
+            }
+        }
+        > .conveniences {
+            top: 24px;
+            > .material-icons {
+                transform: scale(2);
+                color: #9EA1FC;
+            }
+            > .conv-title {
+                top: -36px;
+                left: 46px;
+            }
+            > .plus {
+                top: -30px;
+                left: 46px;
+            }
+            > .line {
+                width:280px;
+                height: 1px;
+                background-color: #E8E8EC;
+                top: -8px;
+                left: -11px;
+            }
+        }
+        > .cosy {
+            top: 48px;
+            > .material-icons {
+                transform: scale(2);
+                color: #9EA1FC;
+            }
+            > .cosy-title {
+                top: -36px;
+                left: 46px;
+            }
+            > .plus {
+                top: -30px;
+                left: 46px;
+            }
+    }
+    }
+}
+
+
+
+// circle //
+
+
+
+.circle{
+    width:120px;
+    height:120px;
+    display:flex;
+    flex-flow:row wrap;
+    top: -160px;
+    left: 500px;
+  }
+  
+  .white {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+  }
+  
+  
+  .circle-child{
+    height:60px;
+    width:60px;
+  }
+  
+  .circle div:nth-child(1){
+    background: linear-gradient(180deg, #FFE39C 0%, #FFCE9C 100%);
+    border-radius:100px 0 0 0;
+  }
+  .circle div:nth-child(2){
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius:0 100px 0 0;
+  }
+  .circle div:nth-child(3){
+    background: linear-gradient(180deg, #FFCE9C 0%, #FFBA9C 100%);
+    border-radius:0 0 0 100px;
+  }
+  .circle div:nth-child(4){
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    border-radius:0 0 100px 0;
+  }
+
+  .fst {
+      height: 4px;
+      width: 2px;
+      background-color: white;
+      top: -120px;
+      left: 60px;
+  }
+   .scnd {
+    height: 2px;
+    width: 4px;
+    background-color: white;
+    top: -60px;
+    left:114px;
+    }
+    .thrd {
+        height: 4px;
+        width: 2px;
+        background-color: white;
+        top: -4px;
+        left: 54px;
+    }
+
+// circle //
+
+
+
+.impress-title {
+    font-size: 19px;
+    font-family: 'Montserrat-bold';
+    top: -324px;
+    left: 501px;
+}
+
+
+.reviews-group {
+    display: grid;
+    grid-row-gap: 3px;
+    top: -358px;
+    left: 666px;   //    🤔
+}
+
+.circles-group {
+    display: grid;
+    grid-row-gap: 14px;
+    top: -270px;
+    left: 651px;
+    
+    > * {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+
+
+    > .yellow {
+        background: linear-gradient(180deg, #FFE39C 0%, #FFBA9C 100%);
+    }
+    > .green {
+        background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    }
+    > .purp {
+        background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    }
+    > .gray {
+        background: linear-gradient(180deg, #919191 0%, #3D4975 100%);
+    }
+}
+
+.vote-amount {
+    top: -442px;
+    left: 538px;
+    > * {
+        color: #BC9CFF;
+        font-family: 'Montserrat-bold';
+    }
+    .numb {
+        font-size: 24px;
+    }
+    .votes {
+        font-size: 15px;
+        top: -2px;
+        left: -10px;
+    }
+}
+
+
+
+
+
+
+// card //
+
+.arrive__date {
+    width: 103px;
+    height: 24px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+    top:1px;
+    left: 14px;
+
+}
+
+.exit__date {
+    width: 103px;
+    height: 24px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+    top: 1px;
+    left: 14px; 
+
+}
+
+.guests__amount {
+    display: block;
+    width: 112px;
+    height: 18px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+    top:12px;
+    left:14px;
+}
+
+.btn__note {
+    display: block;
+    font-family: 'Montserrat-bold';
+    font-size:12px;
+    line-height: 15px;
+    color:white;
+}
+
+
+
+.arrow__date {
+    top:8px;
+    left:14px;
+    color:rgba(31, 32, 65, 0.5);
+}
+
+
+.arrow__guests {
+    top:-20px;
+    left:271px;
+    color:rgba(31, 32, 65, 0.5);
+}
+
+.arrow__choose {
+    top:7px;
+    left:61px;
+}
+
+.dropbox__title {
+    display: block;
+    width:320px;
+    height: 59px;
+    font-size: 24px;
+    font-family: 'Montserrat-bold';
+    left: 29px;
+    top:39px;
+}
+
+.note {
+    display:block;
+    font-family: 'Montserrat-bold';
+    font-size: 12px;
+}
+
+.dropbox__1date {
+    left: 29px;
+    top:60px;
+}
+
+
+.dropbox__2date {
+    left: 199px;
+    top:1px;
+}
+
+
+.drpbx__date {
+    width: 150px;
+    height:44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.drpbx__long {
+    width: 320px;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+}
+
+.act-btn {
+    width: 320px;
+    height: 44px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+
+}
+
+
+.book-box {
+    width:380px;
+    height:512px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: white;
+    position: absolute;
+    top:70px;
+    left:920px;
+
+    * {
+        position: relative;
+    }
+}
+
+
+.book__lux {
+    > div {
+        font-family: 'Montserrat-Bold';
+        position: relative;
+    }
+
+    > .lux__no {
+        font-size:14px;
+        top:49px;
+        left:29px;
+    }
+
+    > .lux__number {
+        font-size:24px;
+        top:22px;
+        left:50px;
+    }
+
+    > .lux__lux {
+        font-size:12px;
+        top:5px;
+        left:105px;
+        color: #BC9CFF;
+    }
+}
+
+
+
+.book__cost {
+
+    > div {
+        color: rgba(31, 32, 65, 0.5);
+    }
+
+
+    > .cost__number {
+        font-family: 'Montserrat-bold';
+        font-size: 14px;
+        top:-12px;
+        left:249px;
+
+    }
+
+
+    > .cost__per-day {
+        font-size:12px;
+        font-family: 'Montserrat-regular';
+        top:-28px;
+        left:304px;
+    }
+}
+
+
+.book__arrive {
+    
+    > .arrive__note {
+        top:-5px;
+        left:29px;
+    }
+
+    > .arrive__dropbox {
+        left:29px;
+        top:1px;
+        padding-top:10px;
+
+        > .material-icons {
+            top:-25px;
+            left:115px;
+        }
+    }
+}
+
+
+.book__exit {
+    
+    > .exit__note {
+        top:-63px;
+        left:199px;
+    }
+
+    > .exit__dropbox {
+        left:199px;
+        top:-58px;
+        padding-top:10px;
+        
+        > .material-icons {
+            top:-25px;
+            left:115px;
+        }
+    }
+}
+
+
+.book__guests {
+
+    > .guests__note {
+        top:-38px;
+        left:29px;
+    }
+
+    > .guests__dropbox {
+        top:-33px;
+        left:29px;
+
+        > .material-icons {
+            top:-10px;
+            left:285px;
+        }
+    }
+}
+
+
+.expences {
+    font-family: 'Montserrat-regular';
+    font-size:14px;
+    color: rgba(31, 32, 65, 0.75);
+    top: -1px;
+    .i__circle {
+        width: 18px;
+        height:18px;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        border-radius:50%;
+        position:absolute;
+    }
+    .i__i {
+        font-size:12px;
+        color: rgba(31, 32, 65, 0.25);
+        font-family: 'Montserrat-bold';
+        position: absolute;
+        left:7px;
+        top:1px;
+        
+    }
+
+    > .exp__4days {
+        
+        > .left {
+            top:-12px;
+            left:30px;
+        }
+
+        > .right {
+            top: -30px;
+            left: 292px;
+        }
+    }
+
+
+    > .exp__services {
+
+        > .left {
+            top:-14px;
+            left:30px;
+        }
+
+        > .exp-i { 
+            top:-2px;
+            left: 3px;
+            > .i__circle {
+                top:-34px;
+                left:249px;
+            }
+        }
+
+        > .right {
+            top:-32px;
+            left:330px;
+        }
+    }
+
+    > .exp__extra-services {
+
+        > .left {
+            width:200px;
+            top:-16px;
+            left:30px;
+        }
+
+        > .extra-exp__i { 
+            top: 17px;
+            left: -67px;
+            
+            > .i__circle {
+                left:249px;
+                top:-53px;
+            }
+        }
+
+        > .right {
+            top:-35px;
+            left:312px;
+        }
+    }
+}
+
+
+.total {
+    font-family: 'Montserrat-bold';
+    font-size: 19px;
+    top: 20px;
+
+
+    > .total__note {
+        top:-7px;
+        left:29px;
+    }
+
+    > .total__border {
+        position: absolute;
+        top:10px;
+        left:98px;
+        width:182px;
+        border-top: 1px dotted #C7C7CF;
+    }
+
+    > .total__money {
+        left:272px;
+        top:-30px;
+    }
+}
+
+
+.book-number {
+    top: 10px;
+    left:29px;
+
+    > .btn__note {
+        top:3px;
+        left:99px;
+        
+        > .material-icons {
+            left:69px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+// card //
+
+
+
+
+
+
+
+// reviews //
+
+
+.heart {
+    transform: scale(0.4);
+}
+.like__count {
+    font-family: 'Montserrat-regular';
+    font-size: 10px;
+}
+.comment-title {
+    font-size: 19px;
+    font-family: 'Montserrat-bold';
+    top: -267px;
+    left: 139px;
+}
+
+.murad {
+    top: -259px;
+    left: 117px;
+    > .comment__photo {
+        width: 70px;
+        height: 68px;
+        background-image: url('/imgs/murat.png');
+        border: 2px solid #FFFFFF;
+        border-radius: 32px;
+    }
+
+    > .purp-like {
+        width: 38px;
+        height: 18px;
+        border-radius: 22px;
+        border: 1px solid #A3A0FC;
+        left: 26px;
+        > .heart {
+            color: #A3A0FC;
+            left: -3px;
+            top: -2px;
+        }
+        > .like__count {
+            color: #A3A0FC;
+            top: -25px;
+            left: 19px;
+        }
+    }
+    > .comment__review {
+        width: 655px;
+        line-height: 24px;
+        top: -58px;
+        left: 80px;
+    }
+
+    > .comment__title {
+        top: -57px;
+        left: 80px;
+    }
+    > .comment__daysago {
+        top: -51px;
+        left: 80px;
+    }
+    > .comment__like {
+        top: -36px;
+    }
+}
+
+
+
+
+.patricia {
+    top: -306px;
+    left: 117px;
+    > .comment__photo {
+        width: 70px;
+        height: 68px;
+        background-image: url('/imgs/patricia.png');
+        border: 2px solid #FFFFFF;
+        border-radius: 32px;
+    }
+
+    > .gray-like {
+        width: 38px;
+        height: 18px;
+        border-radius: 22px;
+        border: 1px solid #C7C7CF;
+        left: 26px;
+        > .heart {
+            color: #C7C7CF;
+            left: -3px;
+            top: -2px;
+        }
+        > .like__count {
+            color: #C7C7CF;
+            top: -25px;
+            left: 21px;
+        }
+    }
+    > .comment__review {
+        width: 655px;
+        line-height: 24px;
+        top: -58px;
+        left: 80px;
+    }
+
+    > .comment__title {
+        top: -57px;
+        left: 80px;
+    }
+    > .comment__daysago {
+        top: -51px;
+        left: 80px;
+    }
+    > .comment__like {
+        top: -36px;
+    }
+}
+
+
+// reviews //
+
+
+
+
+
+//    rules & refusion //
+
+
+
+
+
+
+.details-rules {
+    top: -330px;
+    left: 160px;
+    > .rules__title {
+        font-size: 19px;
+        font-family: 'Montserrat-bold';
+        color: #1F2041;
+    }
+    
+    > .rules__circls {
+        display: grid;
+        grid-row-gap: 24px;
+        top: 24px;
+        left: -21px;
+        > * {
+            background-color: #C7C7CF;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+    }
+    > .rules__list {
+        top: -57px;
+        display: grid;
+        grid-row-gap: 16px;
+
+        > .rules__arrive {
+            width: 240px;
+            height: 48px;
+            line-height: 24px;
+            top: -3px;
+        }
+    }
+}
+
+
+
+.details-refuse {
+    top: -530px;
+    left: 500px;
+    > .refuse__title {
+        font-size: 19px;
+        font-family: 'Montserrat-bold';
+        color: #1F2041;
+        top: -18px;
+        left: 1px;
+    }
+
+    > .refuse__text {
+        width: 341px;
+        height: 96px;
+        line-height: 24px;
+        left: 1px;
+    }
+}
+
+
+//    rules & refusion //
