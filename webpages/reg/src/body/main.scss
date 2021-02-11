@@ -1,0 +1,225 @@
+.reg-group {
+    width: 1440px;
+    height: 753px;
+    background-image: url('/imgs/reg.png');
+    z-index: -1;
+}
+
+.registration {
+    top: 90px;
+    left: 533px;
+}
+
+.reg {
+    width: 380px;
+    height: 646px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: white;
+    position: absolute;
+
+    > * {
+        position: relative;
+    }
+}
+
+
+.reg__title {
+    font-family: 'Montserrat-bold';
+    font-size: 24px;
+    top:39px;
+    left:29px;
+}
+
+
+
+
+.reg__name-input {
+    top:60px;
+    left:29px;
+    padding-top:13px;
+    padding-left:13px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+    color: rgba(31, 32, 65, 0.25);
+}
+
+.reg__surname-input {
+    top:70px;
+    left:29px;
+    padding-top:13px;
+    padding-left:13px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
+    color: rgba(31, 32, 65, 0.25);
+}
+
+.check {
+    width: 18px;
+    height: 18px;
+}
+
+.check__man {
+    border-radius: 50%;
+    border: 1px solid #BC9CFF;
+    top:80px;
+    left:30px;
+}
+
+.check__woman {
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #C7C7CF;
+    top:61px;
+    left:147px;
+}
+
+.display {
+    display: none;
+}
+.check-man__circle {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background:  linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 50%;
+    top:84px;
+    left:33.5px;
+}
+
+
+.check-note {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Montserrat-regular';
+}
+
+
+.check-man__note {
+    top:81px;
+    left:59px;
+    color: #575871;
+}
+
+.check-woman__note {
+    top:81px;
+    left:177px;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+
+
+.birth__title {
+    top: 85px;
+    left:29px;
+}
+
+.birth__input {
+    top:89px;
+    left:29px;
+    color: #C7C7CF;
+    padding-top:12px;
+    padding-left: 14px;
+}
+
+
+.data__title {
+    top:110px;
+    left:29px;
+}
+
+
+.data__email-input {
+    top:114px;
+    left:29px;
+    color: #C7C7CF;
+    padding-top:12px;
+    padding-left: 14px;
+}
+
+.data__pass-input {
+    top: 124px;
+    left: 29px;
+    color: #C7C7CF;
+    padding-top:12px;
+    padding-left: 14px;
+}
+
+.switch__box {
+    width: 38px;
+    height: 18px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(31, 32, 65, 0.25); 
+    top:135px;
+    left: 29px;
+}
+
+.switch-box-circ {
+    width: 12px;
+    height: 12px;
+    background-color: #C7C7CF;
+    border-radius: 50%;
+    top:3px;
+    left:3px;
+}
+
+
+.reg__checkbox-notif {
+    font-size: 14px;
+    font-family: 'Montserrat-regular';
+    top:115px;
+    left:80px;
+}
+
+
+.reg__btn-pay {
+    width: 320px;
+    height: 44px;
+    border-radius: 22px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    top: 140px;
+    left:29px;
+}
+
+.reg-btn__note {
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat-bold';
+    top: 15px;
+    left:95px;
+}
+
+.arrow-pay {
+    color: white;
+    left:286px;
+    top: -5px;
+}
+
+
+.footer__note {
+    font-size: 14px;
+    font-family: 'Montserrat-regular';
+    top:183px;
+    left: 30px;
+}
+
+.footer__btn {
+    width: 95px;
+    height: 40px;
+    background-color: white;
+    border-radius: 22px;
+    border: 2px solid #B09EFE;
+    top:152px;
+    left:250px;
+}
+
+.footer__btn-note {
+    font-size: 12px;
+    font-family: 'Montserrat-bold';
+    top:13px;
+    left:24px;
+    color: #BC9CFF;
+}
