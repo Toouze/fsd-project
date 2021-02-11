@@ -1,0 +1,146 @@
+* {
+    position: relative;
+}
+.rglr {
+    font-size: 14px;
+    color: #8F8FA0;
+}
+.b {
+    font-size: 12px;
+    color: #1F2041;
+}
+
+.body {
+    position: relative;
+    top: 20px;
+    width: 1440px;
+    height: 372px;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    > * {
+        position: relative;
+    } 
+    > .toxin-logo {
+        height: 35px;
+        width: 35px;
+        border: #B79DFF 2.7px solid;
+        border-radius: 50px;
+        top:100px;
+        left:140px;
+        > .circle1 {
+            width:20px; 
+            height: 34px;
+            border: #AA9FFD 2.7px solid;
+            border-radius: 50%;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            transform: rotate(45deg);
+            top:10px;
+            left:-11px;
+        }
+        > .circle2 {
+            width:9px;
+            height:8px;
+            border:#6BCFB3 2.7px solid;
+            border-radius: 50%;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            left:18px;
+            top:-27px;
+            transform: rotate(-24deg);
+        }
+        > .toxin-img {
+            position: relative;
+            top: -42px;
+            left: 49px;
+        }
+    }
+
+    > .book-note {
+        width: 260px;
+        height: 72px;       
+        color: #575871;
+        line-height: 24px;
+        top: 117px;
+        left: 140px;
+    }
+
+    > .info {
+        left:440px;
+        top: -8px;
+        > * {
+            float: left;
+        }
+
+        > .nav {
+            margin-right: 58px;
+            > * {
+                margin-bottom: 20.5px;
+            }
+        } > .about {
+            margin-right: 93px;
+            > * {
+                margin-bottom: 20.5px;
+            }
+        } > .support {
+            > * {
+                margin-bottom: 20.5px;
+            }
+        }
+        
+
+    }
+
+    > .spec {
+        top: -7px;
+        left:492px;
+        > .input {
+            width: 258px;
+            height: 42px;
+            border: 1px solid #C7C7CF;
+            border-radius: 4px;
+            top:40px;
+            left:548px;
+            > .email-note {
+                color:#C7C7CF;
+                top:-115px;
+                left: 15px;
+            } > .material-icons {
+                color:#A3A0FC;
+                top: -135px;
+                left: 225px;
+            }
+        } > .special {
+            width: 260px;
+            height: 48px;
+            line-height: 24px;
+            color: #575871;
+            top: -158px;
+            left: 548px;
+        }
+    }
+}
+
+
+.body-footer {
+    width: 1440px;
+    height: 70px;
+    background-color: #fff;
+    position: relative;
+    top: 22px;
+
+    > .copyright {
+        color: #575871;
+        top:25px;
+        left: 140px;
+    } > .imgs {
+        left: 1188px;
+        top: 5px;
+        > * {
+            margin-right: 21px;
+        } 
+    }
+
+}
